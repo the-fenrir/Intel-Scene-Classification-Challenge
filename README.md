@@ -8,7 +8,7 @@ Various CNN Architectures were used. Validation Accuracy of Various Models are a
  - ResNet 50: 92.5 %
  - Xception Net: 94.2 %
   
-Basically, My idea was based on first initial layers with pretrained weights and freezing them to prevent any backprop, and adding certain more layers on top of them which would learn from the features extracted by the initial layers.
+Basically, My idea was based on first initialising the initial layers with pretrained weights and freezing them to prevent any backprop, and adding certain more layers on top of them which would learn from the features extracted by the initial layers.
 After reaching, a plateau in the learning curve, the initial layers were unfrozen.
 This basically helped in the fine tuning of the features of the initial layers without much radical change in them.
 
